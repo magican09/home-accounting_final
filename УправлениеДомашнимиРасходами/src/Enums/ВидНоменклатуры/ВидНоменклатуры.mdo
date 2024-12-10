@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f16eca2-9397-4f19-ba0a-2500f359c84d">
+  <producedTypes>
+    <refType typeId="55ae9bce-34dd-46af-9b83-19272d95f3df" valueTypeId="5075a0f3-c2b0-450e-8324-9a92d37fdb06"/>
+    <listType typeId="3bd38815-d7de-4231-acdb-5aa1dd1048a7" valueTypeId="8a551ab2-e5bf-42c7-987e-e494bba6e563"/>
+    <managerType typeId="1d7dba40-cbaa-469e-b396-7b3335869ad4" valueTypeId="74cb471d-58d3-493a-9f1e-ea1a9fee2aff"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5cba1351-5ec4-4624-b798-1d9115a8c305">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b28002b-9eae-451b-a462-9d14d033e02c">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b69a4cd6-04b2-4662-9066-726abec57f34">
+    <name>КоммунальныеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммунальные платежи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
