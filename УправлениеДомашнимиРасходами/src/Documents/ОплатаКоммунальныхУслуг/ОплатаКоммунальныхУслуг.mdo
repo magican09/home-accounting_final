@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5d75f0f-43b7-4d4d-96c2-23fad4cd8f27">
+  <producedTypes>
+    <objectType typeId="a57343bb-812c-4caf-a361-2f3b1b9cbe43" valueTypeId="29bea0c0-32cd-4f0f-9c95-d9294dcd4246"/>
+    <refType typeId="58fc6fa4-66a9-4150-9f2d-6c997ea3ea7e" valueTypeId="5bcadbeb-f8df-44e1-90ee-a01ae90db3c4"/>
+    <selectionType typeId="8b99edeb-8152-4e1a-9e7d-29e09346489c" valueTypeId="360ab811-9704-47ba-aa38-712f90c49ccf"/>
+    <listType typeId="b18889b3-fead-4659-b9e9-7debdf3b01dc" valueTypeId="a75449f3-9769-4b5b-a6a1-406f271cb217"/>
+    <managerType typeId="6dcc507e-2d9c-47d1-872e-edae4e5bf465" valueTypeId="89f42860-42c2-4806-ae81-e32f410c02fa"/>
+  </producedTypes>
+  <name>ОплатаКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата коммунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОплатаКоммунальныхУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОплатаКоммунальныхУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f4495724-3fb4-4901-9fd3-c41e251ac8ec">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0af3222-ae40-477d-95f5-2da75eaa8ead">
+    <name>СумаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сума документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8d8ecfbc-a833-4d42-830a-200c44ce06b1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="cbd4a74d-1c6a-4075-b65f-548cb6698955">
+    <producedTypes>
+      <objectType typeId="5d4788b4-1024-4941-b2df-a3de89b01212" valueTypeId="db12df25-56f1-4e82-977b-651f7c238552"/>
+      <rowType typeId="cd352937-e99a-497e-950c-7e62af8e0d02" valueTypeId="8ca18ded-4ec3-4110-bdf1-8c3857188fe7"/>
+    </producedTypes>
+    <name>КоммунальныеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммунальные услуги</value>
+    </synonym>
+    <attributes uuid="f2481e05-fcd9-419d-a1c5-3192f032a416">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44ff3403-e4a6-4be9-8895-613aa7353933">
+      <name>НачалоПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало периода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb419aa3-5412-4107-99c3-7ee8e86b0cfc">
+      <name>КонецПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конец периода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d0504412-9768-4544-a518-60ea3791f401">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

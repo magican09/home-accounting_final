@@ -41,6 +41,7 @@
   <commonModules>CommonModule.ОбщийМодульПокупкиВызовСервера</commonModules>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ОплатаКоммунальныхУслуг</documents>
   <documents>Document.ПокупкаТоваров</documents>
   <documents>Document.ПокупкаУслуг</documents>
   <enums>Enum.ВидНоменклатуры</enums>
