@@ -399,7 +399,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ЕдиницаИзмерения</segments>
+        <segments>Объект.Товары.ЕдиницаИзмерения.УсловноеОбозначение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -432,10 +432,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>TextEditEnd</event>
-          <name>ТоварыЕдиницаИзмеренияОкончаниеВводаТекста</name>
-        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>

@@ -377,7 +377,6 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
-      <showRoot>true</showRoot>
       <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
@@ -428,57 +427,24 @@
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
-  <attributes>
-    <name>ВыборТовара</name>
-    <title>
-      <key>ru</key>
-      <value>Выбор товара</value>
-    </title>
-    <id>2</id>
+  <parameters>
+    <name>ПоказатьТовары</name>
     <valueType>
       <types>Boolean</types>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВыборУслуги</name>
-    <title>
-      <key>ru</key>
-      <value>Выбор услуги</value>
-    </title>
-    <id>3</id>
+  </parameters>
+  <parameters>
+    <name>ПоказатьУслуги</name>
     <valueType>
       <types>Boolean</types>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВыборКоммунальнойУслуги</name>
-    <title>
-      <key>ru</key>
-      <value>Выбор коммунальной услуги</value>
-    </title>
-    <id>4</id>
+  </parameters>
+  <parameters>
+    <name>ПоказатьКоммунальныеУслуги</name>
     <valueType>
       <types>Boolean</types>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

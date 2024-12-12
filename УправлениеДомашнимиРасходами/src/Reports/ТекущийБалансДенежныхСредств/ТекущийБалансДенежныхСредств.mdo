@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dae580d-4384-4b77-9ec0-37e79aeb82e2">
+  <producedTypes>
+    <objectType typeId="974bbd6b-e3f5-4a6a-b92a-165fc8dcc648" valueTypeId="a3bf5876-e2b8-4368-b292-83c4e489c67f"/>
+    <managerType typeId="957098db-b522-4722-a6db-f92dc86fd735" valueTypeId="b5008ed7-2063-4d4c-89fc-960308d2a9a9"/>
+  </producedTypes>
+  <name>ТекущийБалансДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий баланс денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТекущийБалансДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="669152bb-7911-4e48-be39-ad4816388c21">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

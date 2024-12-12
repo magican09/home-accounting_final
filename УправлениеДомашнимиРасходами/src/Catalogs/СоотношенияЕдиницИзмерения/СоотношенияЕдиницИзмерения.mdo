@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85420bf4-669f-4e54-a3c7-ca1330f597e6">
+  <producedTypes>
+    <objectType typeId="030d5363-2b9a-4e35-ada7-bda1abb687ae" valueTypeId="913978ed-d276-448e-94e7-3ca590c7a608"/>
+    <refType typeId="2c295d99-8dfd-406a-bc3c-9c986c1a2224" valueTypeId="f74d8636-131f-48b9-8360-a497de278edd"/>
+    <selectionType typeId="061d401d-f152-4b4f-a479-081205a5547a" valueTypeId="88ae4a94-3c60-459b-b98c-9450819ff227"/>
+    <listType typeId="36b2f149-90c3-427c-a8f3-cbb563e264de" valueTypeId="75cbbc0a-6669-4b7b-bf97-65d595d767d3"/>
+    <managerType typeId="724462f6-7fca-47a8-95e1-213b0df5338c" valueTypeId="31115ddc-1f57-4d16-8431-b61340742183"/>
+  </producedTypes>
+  <name>СоотношенияЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соотношения единиц измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СоотношенияЕдиницИзмерения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СоотношенияЕдиницИзмерения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cd1a9018-7c3e-4066-a7ea-21d484a5a17c">
+    <name>ЕдиницаИзмереения1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измереения 1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d693af2-3f48-4a69-becd-ba117f309955">
+    <name>ЕдиницаИзмерения2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения 2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5372650e-6486-4e3d-a31f-cacd05640bb7">
+    <name>Отношение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидОтношенияВеличин</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

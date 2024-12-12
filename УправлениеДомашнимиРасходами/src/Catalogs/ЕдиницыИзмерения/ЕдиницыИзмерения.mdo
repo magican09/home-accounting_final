@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="690400bd-df04-49ce-99c6-84ecb96d04fd">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="690400bd-df04-49ce-99c6-84ecb96d04fd">
   <producedTypes>
     <objectType typeId="f98b899e-0edb-470f-bbdf-09bdc388ac09" valueTypeId="54144958-5d58-4d57-8bc7-18525c600e05"/>
     <refType typeId="dbd33812-5f04-4bbc-b6ce-43c373cc18d7" valueTypeId="a5285f86-2560-4296-9b4d-806b8a135f19"/>
@@ -19,6 +19,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,4 +31,40 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="46529364-892f-4c3e-bed8-a1742d456b14">
+    <name>УсловноеОбозначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условное обозначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97271b24-57f9-4085-9dd4-63e492110f59">
+    <name>КодовоеОбоначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодовое обоначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

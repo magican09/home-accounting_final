@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78c4b7c4-9b36-4bbb-8749-f014eb14de60">
+  <producedTypes>
+    <refType typeId="d6ecdb95-4105-483a-a50c-8c8fd22b68d9" valueTypeId="c1499a55-7060-4ded-9f5a-88ccffaed4fc"/>
+    <listType typeId="7b3ffa50-1f27-4366-8c38-b27eadb87a6f" valueTypeId="23f79f8f-ef30-4996-a349-e761715b43e8"/>
+    <managerType typeId="2e40202a-597e-4802-891c-9703d48b1ef9" valueTypeId="999a656f-39a7-405f-817f-a7f7f9cfa250"/>
+  </producedTypes>
+  <name>ВидОтношенияВеличин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид отношения величин</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a3347ed-ba1d-48dc-8a5a-37dd993fcbc0">
+    <name>Больше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="530cf4d1-0e85-4271-95cb-5617c04c866b">
+    <name>Меньше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5170aee4-c1c7-4cf9-aa7c-24e1647a5075">
+    <name>Равно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Равно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
