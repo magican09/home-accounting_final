@@ -50,5 +50,6 @@
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ВидОтношенияВеличин</enums>
   <reports>Report.ТекущийБалансДенежныхСредств</reports>
+  <informationRegisters>InformationRegister.РегистрЦенНомеклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>

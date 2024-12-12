@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОплатаКоммунальныхУслуг.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
+  <registerRecords>InformationRegister.РегистрЦенНомеклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f4495724-3fb4-4901-9fd3-c41e251ac8ec">
