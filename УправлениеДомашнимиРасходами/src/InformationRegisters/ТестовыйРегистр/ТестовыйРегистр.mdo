@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfd08078-7023-49f2-9aa8-d2f9d7bd2a89">
+  <producedTypes>
+    <selectionType typeId="f219918b-bb2f-4297-8cb2-198d1e619917" valueTypeId="1770c160-a1a0-4110-8ccc-bc30cadf6713"/>
+    <listType typeId="34440957-5c48-4a7b-9a67-fa142e1e5426" valueTypeId="09221165-6b4a-4f33-ac7d-e23c0cae638e"/>
+    <managerType typeId="7d1a725e-4018-47ae-a173-b889d3a1546f" valueTypeId="857ebbf5-7a65-4f7c-b67d-99e1c7064776"/>
+    <recordSetType typeId="a6d90190-d048-4771-a93c-fbe9c7b15779" valueTypeId="2753edb2-d122-485f-bb35-a673e28b87fa"/>
+    <recordKeyType typeId="8ef723f3-e909-4e05-8e3f-fee021ee3650" valueTypeId="b05fd9d3-2faa-468d-8c20-7ddb7ff6d6f5"/>
+    <recordType typeId="beebff13-da28-488e-a760-42e7d6c91087" valueTypeId="f7777631-dbbe-4403-be6e-356d82d19161"/>
+    <recordManagerType typeId="ae580823-710c-42df-8c6f-6dc5008e9d8e" valueTypeId="dbadf351-347c-413e-bad9-6875a2a51f45"/>
+  </producedTypes>
+  <name>ТестовыйРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый регистр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d9d86d50-916d-426a-a173-51182dd03d78">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2cc81ca4-5842-4fdd-adb5-e495b1271ab1">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="93ef05e8-a039-49ae-8a3d-52e54a9ae4b3">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="20cd7dad-8369-48fc-98bb-0583c3ae8ebc">
+    <name>Номеклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номеклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
