@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a25f296-73f6-43bb-aa0d-e5d4ccd172fc">
+  <producedTypes>
+    <objectType typeId="cec9c2c0-d193-4e8e-9664-caf0473f6388" valueTypeId="2d236e9c-c082-4ad8-8776-a0aaebf68115"/>
+    <refType typeId="47bb750a-4de2-4698-8df1-deba89644a43" valueTypeId="3f356632-dfd0-4831-9555-61fbb7347ca9"/>
+    <selectionType typeId="87db6f8c-07c0-4bbe-94b8-60db614ecad7" valueTypeId="51f6dd89-c16c-4124-bb2f-a937c21f51e0"/>
+    <listType typeId="372f2008-d94e-493e-a5ec-3acd8278f64a" valueTypeId="50920aa3-139f-4132-8d08-df6f1c54d21b"/>
+    <managerType typeId="c68ab643-98d5-43df-ac25-6789979777da" valueTypeId="430ed92a-71af-49cb-a1f4-a97f8bc95bbe"/>
+  </producedTypes>
+  <name>ПолучитьСредстваИзВнешнегоИсточника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить средства из внешнего источника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПолучитьСредстваИзВнешнегоИсточника.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="817d7b8c-f792-4e91-a19e-96639abf0bd8">
+    <name>ВидИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид источника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидИсточникаФинансирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03b8195c-e977-4611-a48b-faa2ac08c5e4">
+    <name>ИсточникПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник поступления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f6e8254-dc7e-49ab-8461-52307e4d0945">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a589f8e-96b8-4aad-8b6c-d4c92d0b3663">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8289c5d9-7df6-4152-988e-f719ada8c1f7">
+    <name>сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

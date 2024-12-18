@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8004b881-99d4-4952-b0d4-f4f41fd3a4b1">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8004b881-99d4-4952-b0d4-f4f41fd3a4b1">
   <producedTypes>
     <objectType typeId="e91eb2f2-0004-47e9-ba8d-b35a8eb1fc99" valueTypeId="c443bb5e-c55b-4713-9fc4-d4968748686f"/>
     <refType typeId="62920dd0-2a60-4b95-ac01-fa298568ebbb" valueTypeId="803aeacd-b40b-4b02-8372-2b1cecdf4063"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4a57a57a-a9f4-4d60-8041-3fe147437ed7">
+    <name>ВидИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид источника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидИсточникаФинансирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

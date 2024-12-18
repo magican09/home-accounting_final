@@ -50,6 +50,40 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="ace939c5-a2d3-4318-b4ac-cadea4eab428">
+      <name>НачалоПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало периода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="383c88a6-2e22-47f7-bedf-8d4ad9188fa3">
+      <name>КонецПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конец периода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="7c8e6e43-a654-4106-87cb-07c7b58f2dae">
       <name>Сумма</name>
       <synonym>
