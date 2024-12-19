@@ -257,6 +257,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <listChoiceMode>true</listChoiceMode>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -267,7 +268,7 @@
       <id>29</id>
       <title>
         <key>ru</key>
-        <value>Намиенование </value>
+        <value>Наименование </value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -327,13 +328,17 @@
     <items xsi:type="form:FormField">
       <name>ЗатратыИПоступленияЕдинцаИзмерения</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Ед. изм.</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЗатратыИПоступления.ЕдинцаИзмерения</segments>
+        <segments>Объект.ЗатратыИПоступления.ЕдинцаИзмерения.УсловноеОбозначение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЗатратыИПоступленияЕдинцаИзмеренияРасширеннаяПодсказка</name>
@@ -416,6 +421,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>TextEditEnd</event>
+          <name>ЗатратыИПоступленияКоличествоОкончаниеВводаТекста</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -466,6 +475,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>TextEditEnd</event>
+          <name>ЗатратыИПоступленияЦенаОкончаниеВводаТекста</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -535,6 +548,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>ЗатратыИПоступленияПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
