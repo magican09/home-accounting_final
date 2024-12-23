@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a3b3c5-637b-4d9a-8843-b505beb38aaf">
+  <producedTypes>
+    <refType typeId="86009d28-7adf-43ff-9386-8819b4e20926" valueTypeId="d49d45b0-4d95-4843-9121-be63df13c49d"/>
+    <listType typeId="61fb6d9e-285a-4cfb-bb73-7c8556993bbf" valueTypeId="9fea1d22-5167-4074-bd66-c290ac527201"/>
+    <managerType typeId="27ba863a-0fb9-4080-9274-f39b7f07fded" valueTypeId="34786ca6-f979-4651-be13-4e940cfb8cad"/>
+  </producedTypes>
+  <name>ВидОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b2d0a51-53ed-416a-acc6-bc1828917fc5">
+    <name>ОплатаТоваровИУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01f8f3de-d341-4040-8907-eba123d87e5e">
+    <name>ПереводВходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий перевод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3faaa376-bf9c-4baf-b897-86ef81d34bc9">
+    <name>ПолучениеНаличных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a78f7526-e5ea-4ba8-8437-9da6f95223e4">
+    <name>ПереводИсходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий перевод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a44ded7c-ea90-4a46-98e5-7ba3582ef216">
+    <name>ПередачаНаличных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача наличных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -41,6 +41,7 @@
   <commonModules>CommonModule.ОбщийМодульПокупкиВызовСервера</commonModules>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ИсточникиДенежныхСредств</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.СоотношенияЕдиницИзмерения</catalogs>
   <documents>Document.ОплатаКоммунальныхУслуг</documents>
@@ -49,8 +50,9 @@
   <documents>Document.ПолучитьСредстваИзВнешнегоИсточника</documents>
   <documents>Document.ПоступленияДенежныхСредств</documents>
   <documents>Document.УчетЗатратИПоступлений</documents>
-  <enums>Enum.ВидИсточникаФинансирования</enums>
+  <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.ВидОперации</enums>
   <enums>Enum.ВидОтношенияВеличин</enums>
   <reports>Report.ТекущийБалансДенежныхСредств</reports>
   <informationRegisters>InformationRegister.ТестовыйРегистр</informationRegisters>

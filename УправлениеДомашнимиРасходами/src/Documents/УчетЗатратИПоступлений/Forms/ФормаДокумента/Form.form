@@ -210,7 +210,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ЗатратыИПоступленияВидОперации</name>
-      <id>26</id>
+      <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -221,7 +221,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ЗатратыИПоступленияВидОперацииРасширеннаяПодсказка</name>
-        <id>28</id>
+        <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -236,7 +236,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ЗатратыИПоступленияВидОперацииКонтекстноеМеню</name>
-        <id>27</id>
+        <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -245,11 +245,15 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ЗатратыИПоступленияВидОперацииОбработкаВыбора</name>
+        </handlers>
         <handlers>
           <event>StartChoice</event>
           <name>ЗатратыИПоступленияВидОперацииНачалоВыбора</name>
@@ -257,11 +261,48 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <listChoiceMode>true</listChoiceMode>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
       </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ЗатратыИПоступленияКонтрагент</name>
+      <id>44</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ЗатратыИПоступленияКонтрагентРасширеннаяПодсказка</name>
+        <id>46</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЗатратыИПоступленияКонтрагентКонтекстноеМеню</name>
+        <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
     </items>
     <items xsi:type="form:FormField">
       <name>ЗатратыИПоступленияЗатратаПоступление</name>
@@ -320,9 +361,9 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -549,8 +590,8 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>OnActivateRow</event>
-      <name>ЗатратыИПоступленияПриАктивизацииСтроки</name>
+      <event>OnStartEdit</event>
+      <name>ЗатратыИПоступленияПриНачалеРедактирования</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>

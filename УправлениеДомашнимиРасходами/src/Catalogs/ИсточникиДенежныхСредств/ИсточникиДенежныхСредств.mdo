@@ -37,7 +37,7 @@
       <value>Вид источника</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидИсточникаФинансирования</types>
+      <types>EnumRef.ВидКонтрагента</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
