@@ -48,10 +48,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="aa0dcdee-95f6-435a-ba0b-cfc9ba79ac29">
-    <name>ДоходыРасходы</name>
+    <name>Номеклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Доходы расходы</value>
+      <value>Номеклатура</value>
     </synonym>
     <type>
       <types>CatalogRef</types>

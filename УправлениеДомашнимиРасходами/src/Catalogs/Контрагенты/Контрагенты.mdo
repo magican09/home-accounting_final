@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aec1aa9-d797-40c8-9dfd-3cda7336d3b8">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aec1aa9-d797-40c8-9dfd-3cda7336d3b8">
   <producedTypes>
     <objectType typeId="764be183-2fbb-4ce4-9178-04b5549e305a" valueTypeId="9c3c688f-3a9f-4227-af1f-52672eb07e3b"/>
     <refType typeId="c167231a-31de-489d-9a27-c3a066e14a23" valueTypeId="cae50395-49d0-4eb1-884c-eb3f29294b6f"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0156fe60-da44-4475-87e3-6e878897e762">
+    <name>ВидКотрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид котрагента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидКонтрагента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
