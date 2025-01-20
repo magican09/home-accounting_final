@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af9a8cae-418a-49a2-b83f-be51295450e6">
+  <name>СлужебныеПроцедуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль служебные процедуры</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
