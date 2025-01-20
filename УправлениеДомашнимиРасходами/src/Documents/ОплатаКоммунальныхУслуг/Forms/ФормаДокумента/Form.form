@@ -108,9 +108,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВидНоменклатуры</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВидНоменклатурыРасширеннаяПодсказка</name>
       <id>9</id>
@@ -136,8 +133,49 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Контрагент</name>
+    <id>44</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Контрагент</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КонтрагентРасширеннаяПодсказка</name>
+      <id>46</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КонтрагентКонтекстноеМеню</name>
+      <id>45</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -531,6 +569,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnEditEnd</event>
+      <name>КоммунальныеУслугиПриОкончанииРедактирования</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -735,23 +777,6 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ПВидНоменклатуры</name>
-    <title>
-      <key>ru</key>
-      <value>П вид номенклатуры</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>EnumRef.ВидНоменклатуры</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>РазрешитьПовторыВТЧ</name>
